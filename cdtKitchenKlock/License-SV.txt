@@ -1,0 +1,29 @@
+KitchenKlock Software License Agreement
+Version 1.0
+Copyright (c) 2026 Kjell Cederfeldt
+kjell.cederfeldt@gmail.com
+
+1. Beviljande av licens
+Genom att använda, kopiera eller modifiera programvaran KitchenKlock ("Programvaran") accepterar du villkoren i denna licens. Upphovsmannen beviljar dig en världsomspännande, royaltyfri licens att använda och modifiera källkoden under följande förutsättningar:
+
+2. Icke-kommersiell användning
+Programvaran får inte användas för kommersiella ändamål. Detta inkluderar, men är inte begränsat till:
+
+Försäljning av Programvaran eller modifierade versioner av den.
+
+Användning av Programvaran som en del av en betaltjänst.
+
+Användning i en kommersiell verksamhet för att generera vinst.
+
+3. Dela Lika & Reciprocitet (Copyleft)
+Om du ändrar, transformerar eller bygger vidare på Programvaran, måste du distribuera dina bidrag under exakt samma licens som denna.
+
+Källkodstillgång: Du måste göra den modifierade källkoden tillgänglig för alla som tar del av den modifierade programvaran.
+
+Återkoppling: Alla väsentliga ändringar och förbättringar ska göras tillgängliga för den ursprungliga upphovsmannen (via t.ex. en Pull Request på projektets plattform eller via e-post) för att främja projektets tillväxt.
+
+4. Erkännande
+Du måste ge lämpligt erkännande till den ursprungliga upphovsmannen och tillhandahålla en länk till den ursprungliga källkoden för KitchenKlock.
+
+5. Friskrivning från ansvar
+PROGRAMVARAN TILLHANDAHÅLLS "I BEFINTLIGT SKICK", UTAN GARANTIER AV NÅGOT SLAG. UNDER INGA OMSTÄNDIGHETER SKALL UPPHOVSMANNEN HÅLLAS ANSVARIG FÖR ANSPRÅK, SKADOR ELLER ANNAN SKYLDIGHET. 

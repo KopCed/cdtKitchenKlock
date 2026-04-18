@@ -1,0 +1,13 @@
+[debug] Copy resource mappings: 
+[debug] 	(/home/kjell/dev/toGitHub/cdtKitchenKlock/backend/src/main/resources/public/index.html,/home/kjell/dev/toGitHub/cdtKitchenKlock/backend/target/scala-3.6.3/classes/public/index.html)
+[debug] 	(/home/kjell/dev/toGitHub/cdtKitchenKlock/backend/src/main/resources/locales/sv.json,/home/kjell/dev/toGitHub/cdtKitchenKlock/backend/target/scala-3.6.3/classes/locales/sv.json)
+[debug] 	(/home/kjell/dev/toGitHub/cdtKitchenKlock/backend/src/main/resources/locales/en.json,/home/kjell/dev/toGitHub/cdtKitchenKlock/backend/target/scala-3.6.3/classes/locales/en.json)
+[debug] 	(/home/kjell/dev/toGitHub/cdtKitchenKlock/backend/src/main/resources/public/assets/index-DQPj4wic.js,/home/kjell/dev/toGitHub/cdtKitchenKlock/backend/target/scala-3.6.3/classes/public/assets/index-DQPj4wic.js)
+[debug] 	(/home/kjell/dev/toGitHub/cdtKitchenKlock/backend/src/main/resources/public/spheres/purple.png,/home/kjell/dev/toGitHub/cdtKitchenKlock/backend/target/scala-3.6.3/classes/public/spheres/purple.png)
+[debug] 	(/home/kjell/dev/toGitHub/cdtKitchenKlock/backend/src/main/resources/public/spheres/green.png,/home/kjell/dev/toGitHub/cdtKitchenKlock/backend/target/scala-3.6.3/classes/public/spheres/green.png)
+[debug] 	(/home/kjell/dev/toGitHub/cdtKitchenKlock/backend/src/main/resources/public/spheres/colon-purple.png,/home/kjell/dev/toGitHub/cdtKitchenKlock/backend/target/scala-3.6.3/classes/public/spheres/colon-purple.png)
+[debug] 	(/home/kjell/dev/toGitHub/cdtKitchenKlock/backend/src/main/resources/public/spheres/red.png,/home/kjell/dev/toGitHub/cdtKitchenKlock/backend/target/scala-3.6.3/classes/public/spheres/red.png)
+[debug] 	(/home/kjell/dev/toGitHub/cdtKitchenKlock/backend/src/main/resources/public/spheres/colon-red.png,/home/kjell/dev/toGitHub/cdtKitchenKlock/backend/target/scala-3.6.3/classes/public/spheres/colon-red.png)
+[debug] 	(/home/kjell/dev/toGitHub/cdtKitchenKlock/backend/src/main/resources/public/spheres/colon-green.png,/home/kjell/dev/toGitHub/cdtKitchenKlock/backend/target/scala-3.6.3/classes/public/spheres/colon-green.png)
+[debug] 	(/home/kjell/dev/toGitHub/cdtKitchenKlock/backend/src/main/resources/public/spheres/colon-blue.png,/home/kjell/dev/toGitHub/cdtKitchenKlock/backend/target/scala-3.6.3/classes/public/spheres/colon-blue.png)
+[debug] 	(/home/kjell/dev/toGitHub/cdtKitchenKlock/backend/src/main/resources/public/spheres/blue.png,/home/kjell/dev/toGitHub/cdtKitchenKlock/backend/target/scala-3.6.3/classes/public/spheres/blue.png)

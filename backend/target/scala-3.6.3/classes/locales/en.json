@@ -1,0 +1,198 @@
+{
+  "app": {
+    "loading": "Loading...",
+    "settings": "Settings",
+    "settingsLink": "⚙ settings"
+  },
+  "config": {
+    "title": "KitchenKlock – Configuration",
+    "backLink": "← Back to clock",
+    "closeButton": "Close",
+    "tabs": {
+      "clock": "Clock",
+      "date": "Date",
+      "appearance": "Appearance",
+      "weather": "Weather"
+    },
+    "sections": {
+      "clockMode": {
+        "heading": "Choose clocks",
+        "rotationHeading": "Rotation",
+        "switchEvery": "Switch clock every X minutes",
+        "switchTriggerLabel": "Switch clock",
+        "triggerTimed": "Every X minutes",
+        "triggerOnWeatherReturn": "On each return from weather",
+        "globeColorLabel": "Sphere color",
+        "globeColorPurple": "Purple",
+        "globeColorRed": "Red",
+        "globeColorGreen": "Green",
+        "globeColorBlue": "Blue",
+        "ledSegmentLabel": "Inactive segments – brightness: {{value}}%",
+        "ledSegmentInvisible": "Invisible (0%)",
+        "ledSegmentWeak": "Dim (15%)",
+        "ledSegmentStrong": "Bright (30%)"
+      },
+      "colors": {
+        "heading": "Colors",
+        "backgroundStyleLabel": "Background type",
+        "backgroundSolid": "Solid color",
+        "backgroundLavaLamp": "Lava lamp (animated)",
+        "backgroundNightSky": "Night sky (stars)",
+        "animatedBgInfo": "Clock and background colors are set automatically for best contrast.",
+        "starSizeLabel": "Star size: {{value}}×",
+        "starSizeSmall": "Small",
+        "starSizeLarge": "Large",
+        "lavaLamp": "Living background (lava lamp)",
+        "lavaLampInfo": "Clock and background colors are set automatically for best contrast.",
+        "background": "Background color",
+        "clock": "Clock color",
+        "date": "Date color",
+        "randomClock": "Randomize clock color",
+        "randomDate": "Randomize date color"
+      },
+      "display": {
+        "heading": "Display",
+        "showDate": "Show date",
+        "showTemperature": "Show temperature in corner",
+        "tempPositionLabel": "Temperature position",
+        "posTopLeft": "Top left corner",
+        "posTopRight": "Top right corner",
+        "posBotLeft": "Bottom left corner",
+        "posBotRight": "Bottom right corner"
+      },
+      "dimming": {
+        "heading": "Dimming",
+        "enable": "Dim screen automatically",
+        "startLabel": "Start dimming",
+        "endLabel": "Return to full brightness",
+        "levelLabel": "Brightness during dimming: {{value}}%",
+        "levelDark": "Dark (5%)",
+        "levelHalf": "Half (50%)",
+        "levelFull": "Nearly full (95%)"
+      },
+      "temperatureUnit": {
+        "heading": "Temperature unit",
+        "celsius": "Celsius (°C)",
+        "fahrenheit": "Fahrenheit (°F)"
+      },
+      "weatherScreen": {
+        "heading": "Weather screen",
+        "showWeather": "Show weather (alternate clock ↔ weather)",
+        "clockSeconds": "Clock shown for (seconds)",
+        "weatherSeconds": "Weather shown for (seconds)",
+        "switchClockLabel": "Switch clock",
+        "switchClockTimed": "Every X minutes",
+        "switchClockOnReturn": "On each return from weather"
+      },
+      "weatherTime": {
+        "heading": "Time on weather screen",
+        "showTime": "Show current time in corner when weather is displayed",
+        "positionLabel": "Time position"
+      },
+      "weatherService": {
+        "heading": "Weather service",
+        "serviceLabel": "Choose weather service",
+        "smhi": "SMHI (free, no API key)",
+        "yr": "YR.no (free, no API key)",
+        "accuweather": "AccuWeather (requires API key)",
+        "apiKeyLabel": "AccuWeather API key",
+        "apiKeyPlaceholder": "Paste your API key here",
+        "apiKeyInfo": "Get a free key (50 calls/day) at",
+        "latLabel": "Latitude",
+        "lonLabel": "Longitude",
+        "cityLabel": "City name (display name)",
+        "refreshLabel": "Fetch new weather every X minutes"
+      },
+      "language": {
+        "heading": "Language",
+        "label": "Choose language"
+      },
+      "datetime": {
+        "heading": "Date",
+        "timeFormatLabel": "Time format",
+        "24h": "24 hours",
+        "12h": "12 hours (AM/PM)",
+        "dateFormatLabel": "Date format",
+        "preview": "Preview"
+      }
+    },
+    "clocks": {
+      "digitalDefault": "Default",
+      "digitalLed": "LED",
+      "digitalScifi": "Sci-Fi",
+      "digitalFlip": "Flip clock",
+      "digitalGlobe": "Globe",
+      "analogClassic": "Classic",
+      "analogPilot": "Pilot",
+      "analogVintage": "Vintage",
+      "analogCosmic": "Cosmic",
+      "openSettings": "Settings",
+      "settingsFallback": "Settings",
+      "multipleInfo": "{{count}} clocks selected – rotates automatically"
+    },
+    "buttons": {
+      "saving": "Saving...",
+      "save": "Save configuration",
+      "refreshing": "Loading...",
+      "refreshed": "Updated!",
+      "refresh": "Reload configuration",
+      "saved": "Saved!",
+      "saveError": "Could not save configuration"
+    }
+  },
+  "locale": {
+    "months": {
+      "0": "January", "1": "February", "2": "March", "3": "April",
+      "4": "May", "5": "June", "6": "July", "7": "August",
+      "8": "September", "9": "October", "10": "November", "11": "December"
+    },
+    "monthsShort": {
+      "0": "Jan", "1": "Feb", "2": "Mar", "3": "Apr",
+      "4": "May", "5": "Jun", "6": "Jul", "7": "Aug",
+      "8": "Sep", "9": "Oct", "10": "Nov", "11": "Dec"
+    },
+    "weekdays": {
+      "0": "Sunday", "1": "Monday", "2": "Tuesday", "3": "Wednesday",
+      "4": "Thursday", "5": "Friday", "6": "Saturday"
+    },
+    "weekdaysShort": {
+      "0": "Sun", "1": "Mon", "2": "Tue", "3": "Wed",
+      "4": "Thu", "5": "Fri", "6": "Sat"
+    }
+  },
+  "weather": {
+    "loading": "Loading weather...",
+    "unavailable": "Weather data unavailable: {{error}}",
+    "wind": "Wind: {{speed}} m/s",
+    "codes": {
+      "1":  "Clear sky",
+      "2":  "Nearly clear",
+      "3":  "Partly cloudy",
+      "4":  "Half cloudy",
+      "5":  "Cloudy",
+      "6":  "Overcast",
+      "7":  "Fog",
+      "8":  "Light rain showers",
+      "9":  "Rain showers",
+      "10": "Heavy rain showers",
+      "11": "Thunderstorm",
+      "12": "Light sleet showers",
+      "13": "Sleet showers",
+      "14": "Heavy sleet showers",
+      "15": "Light snow showers",
+      "16": "Snow showers",
+      "17": "Heavy snow showers",
+      "18": "Light rain",
+      "19": "Rain",
+      "20": "Heavy rain",
+      "21": "Thunder",
+      "22": "Light sleet",
+      "23": "Sleet",
+      "24": "Heavy sleet",
+      "25": "Light snowfall",
+      "26": "Snowfall",
+      "27": "Heavy snowfall",
+      "0":  "Unknown"
+    }
+  }
+}

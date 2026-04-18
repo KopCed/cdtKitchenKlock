@@ -1,0 +1,29 @@
+KitchenKlock Software License Agreement
+Version 1.0
+Copyright (c) 2026 Kjell Cederfeldt
+kjell.cederfeldt@gmail.com
+
+1. Grant of License
+By using, copying, or modifying the KitchenKlock software (the "Software"), you agree to the terms of this license. The original author grants you a worldwide, royalty-free license to use and modify the source code under the following conditions:
+
+2. Non-Commercial Use
+The Software may not be used for commercial purposes. This includes, but is not limited to:
+
+Selling the Software or modified versions thereof.
+
+Using the Software as part of a paid service.
+
+Using the Software within a commercial enterprise to generate profit.
+
+3. Share-Alike & Reciprocity (Copyleft)
+If you remix, transform, or build upon the Software, you must distribute your contributions under the exact same license as this one.
+
+Source Code Availability: You must make the modified source code available to anyone who receives the modified software.
+
+Contribution: All significant changes and improvements should be made available to the original author (e.g., via Pull Request on the project's platform or via email) to support the growth of the project for the benefit of all users.
+
+4. Attribution
+You must give appropriate credit to the original author and provide a link to the original source code for KitchenKlock.
+
+5. Disclaimer of Warranty
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE. 

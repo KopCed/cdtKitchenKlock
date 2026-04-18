@@ -1,0 +1,498 @@
+[debug] Separate classpath projects and all dependencies start:
+[debug] Separate classpath projects and all dependencies end. Took 3 ms
+[debug] Collect only external dependencies start:
+[debug] Collect only external dependencies end. Took 1 ms
+[debug] Collect excluded jar names start:
+[debug] Collect excluded jar names end. Took 1 ms
+[debug] Filter jars start:
+[debug] Filter jars end. Took 1 ms
+[debug] Collect and shade project classes start:
+[debug] Collect and shade project classes end. Took 2 ms
+[debug] Collect and shade dependency entries start:
+[debug] Collect and shade dependency entries end. Took 23 ms
+[debug] Collect renames start:
+[debug] Collect renames end. Took 134 ms
+[debug] Process renames start:
+[debug] Process renames end. Took 18 ms
+[debug] Collect all merge strategies for cache check start:
+[debug] Collect all merge strategies for cache check end. Took 59 ms
+[debug] Building assembly jar due to changed inputs...
+[debug] Merge all conflicting jar entries (including those renamed) start:
+[debug] Merge all conflicting jar entries (including those renamed) end. Took 169 ms
+[debug] Report merge results start:
+[info] 2 file(s) merged using strategy 'Rename' (Run the task at debug level to see the details)
+[debug] 
+[debug] Merge Strategy Used: Rename
+[debug] Resulting entries:
+[debug]   Jar entry = LICENSE_scala-library-2.13.15
+[debug] Merge origins:
+[debug]   Jar name = scala-library-2.13.15.jar, jar org = org.scala-lang, entry target = LICENSE
+[debug] 
+[debug] Merge Strategy Used: Rename
+[debug] Resulting entries:
+[debug]   Jar entry = NOTICE_scala-library-2.13.15
+[debug] Merge origins:
+[debug]   Jar name = scala-library-2.13.15.jar, jar org = org.scala-lang, entry target = NOTICE
+[info] 144 file(s) merged using strategy 'Discard' (Run the task at debug level to see the details)
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = netty-codec-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/maven/io.netty/netty-codec/pom.properties
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = netty-codec-http-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/native-image/io.netty/netty-codec-http/generated/handlers/reflect-config.json
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = netty-handler-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/native-image/io.netty/netty-handler/native-image.properties
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = netty-transport-classes-epoll-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/maven/io.netty/netty-transport-classes-epoll/pom.xml
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = netty-codec-http-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/maven/io.netty/netty-codec-http/pom.properties
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = netty-transport-native-unix-common-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/maven/io.netty/netty-transport-native-unix-common/pom.xml
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = netty-handler-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/native-image/io.netty/netty-handler/reflect-config.json
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = netty-transport-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/native-image/io.netty/netty-transport/generated/handlers/reflect-config.json
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = netty-common-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/maven/org.jctools/jctools-core/pom.properties
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = netty-handler-proxy-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/native-image/io.netty/netty-handler-proxy/generated/handlers/reflect-config.json
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = netty-transport-classes-epoll-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/native-image/io.netty/netty-transport-classes-epoll/resource-config.json
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = netty-transport-classes-epoll-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/native-image/io.netty/netty-transport-classes-epoll/jni-config.json
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = netty-buffer-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/maven/io.netty/netty-buffer/pom.properties
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = netty-transport-classes-epoll-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/native-image/io.netty/netty-transport-classes-epoll/native-image.properties
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = netty-incubator-transport-classes-io_uring-0.0.25.Final.jar, jar org = io.netty.incubator, entry target = META-INF/maven/io.netty.incubator/netty-incubator-transport-classes-io_uring/pom.xml
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = netty-incubator-transport-classes-io_uring-0.0.25.Final.jar, jar org = io.netty.incubator, entry target = META-INF/INDEX.LIST
+[debug]   Jar name = netty-incubator-transport-native-io_uring-0.0.25.Final.jar, jar org = io.netty.incubator, entry target = META-INF/INDEX.LIST
+[debug]   Jar name = netty-buffer-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/INDEX.LIST
+[debug]   Jar name = netty-codec-http-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/INDEX.LIST
+[debug]   Jar name = netty-codec-socks-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/INDEX.LIST
+[debug]   Jar name = netty-codec-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/INDEX.LIST
+[debug]   Jar name = netty-handler-proxy-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/INDEX.LIST
+[debug]   Jar name = netty-handler-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/INDEX.LIST
+[debug]   Jar name = netty-resolver-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/INDEX.LIST
+[debug]   Jar name = netty-transport-classes-epoll-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/INDEX.LIST
+[debug]   Jar name = netty-transport-classes-kqueue-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/INDEX.LIST
+[debug]   Jar name = netty-transport-native-epoll-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/INDEX.LIST
+[debug]   Jar name = netty-transport-native-epoll-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/INDEX.LIST
+[debug]   Jar name = netty-transport-native-epoll-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/INDEX.LIST
+[debug]   Jar name = netty-transport-native-kqueue-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/INDEX.LIST
+[debug]   Jar name = netty-transport-native-kqueue-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/INDEX.LIST
+[debug]   Jar name = netty-transport-native-kqueue-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/INDEX.LIST
+[debug]   Jar name = netty-transport-native-unix-common-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/INDEX.LIST
+[debug]   Jar name = netty-transport-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/INDEX.LIST
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = netty-common-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/maven/io.netty/netty-common/pom.xml
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = netty-handler-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/maven/io.netty/netty-handler/pom.xml
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = netty-handler-proxy-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/maven/io.netty/netty-handler-proxy/pom.properties
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = netty-handler-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/maven/io.netty/netty-handler/pom.properties
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = netty-transport-classes-kqueue-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/maven/io.netty/netty-transport-classes-kqueue/pom.properties
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = netty-transport-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/native-image/io.netty/netty-transport/reflect-config.json
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = netty-codec-http-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/maven/io.netty/netty-codec-http/pom.xml
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = netty-transport-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/maven/io.netty/netty-transport/pom.properties
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = netty-incubator-transport-native-io_uring-0.0.25.Final.jar, jar org = io.netty.incubator, entry target = META-INF/native/libnetty_transport_native_io_uring_x86_64.so
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = netty-codec-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/maven/io.netty/netty-codec/pom.xml
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = zio_3-2.1.14.jar, jar org = dev.zio, entry target = META-INF/native-image/dev.zio/zio/sun-misc-signal-proxy-config.json
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = netty-buffer-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/maven/io.netty/netty-buffer/pom.xml
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = netty-incubator-transport-classes-io_uring-0.0.25.Final.jar, jar org = io.netty.incubator, entry target = META-INF/maven/io.netty.incubator/netty-incubator-transport-classes-io_uring/pom.properties
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = netty-handler-proxy-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/maven/io.netty/netty-handler-proxy/pom.xml
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = netty-transport-native-epoll-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/native/libnetty_transport_native_epoll_x86_64.so
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = netty-incubator-transport-native-io_uring-0.0.25.Final.jar, jar org = io.netty.incubator, entry target = META-INF/maven/io.netty.incubator/netty-incubator-transport-native-io_uring/pom.properties
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = netty-transport-classes-epoll-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/native-image/io.netty/netty-transport-classes-epoll/reflect-config.json
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = netty-codec-socks-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/native-image/io.netty/netty-codec-socks/generated/handlers/reflect-config.json
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = netty-transport-native-kqueue-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/native/libnetty_transport_native_kqueue_aarch_64.jnilib
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = netty-codec-socks-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/maven/io.netty/netty-codec-socks/pom.properties
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = netty-resolver-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/maven/io.netty/netty-resolver/pom.properties
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = magnolia_3-1.3.7.jar, jar org = com.softwaremill.magnolia1_3, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = izumi-reflect-thirdparty-boopickle-shaded_3-2.3.10.jar, jar org = dev.zio, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = izumi-reflect_3-2.3.10.jar, jar org = dev.zio, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = zio-cache_3-0.2.4.jar, jar org = dev.zio, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = zio-constraintless_3-0.3.3.jar, jar org = dev.zio, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = zio-http_3-3.0.1.jar, jar org = dev.zio, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = zio-internal-macros_3-2.1.14.jar, jar org = dev.zio, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = zio-json_3-0.7.3.jar, jar org = dev.zio, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = zio-prelude-macros_3-1.0.0-RC28.jar, jar org = dev.zio, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = zio-prelude_3-1.0.0-RC28.jar, jar org = dev.zio, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = zio-schema-derivation_3-1.4.1.jar, jar org = dev.zio, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = zio-schema-json_3-1.4.1.jar, jar org = dev.zio, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = zio-schema-macros_3-1.4.1.jar, jar org = dev.zio, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = zio-schema-protobuf_3-1.4.1.jar, jar org = dev.zio, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = zio-schema_3-1.4.1.jar, jar org = dev.zio, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = zio-stacktracer_3-2.1.14.jar, jar org = dev.zio, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = zio-streams_3-2.1.9.jar, jar org = dev.zio, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = zio_3-2.1.14.jar, jar org = dev.zio, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = netty-incubator-transport-classes-io_uring-0.0.25.Final.jar, jar org = io.netty.incubator, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = netty-incubator-transport-native-io_uring-0.0.25.Final.jar, jar org = io.netty.incubator, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = netty-buffer-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = netty-codec-http-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = netty-codec-socks-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = netty-codec-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = netty-common-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = netty-handler-proxy-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = netty-handler-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = netty-resolver-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = netty-transport-classes-epoll-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = netty-transport-classes-kqueue-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = netty-transport-native-epoll-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = netty-transport-native-epoll-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = netty-transport-native-epoll-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = netty-transport-native-kqueue-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = netty-transport-native-kqueue-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = netty-transport-native-kqueue-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = netty-transport-native-unix-common-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = netty-transport-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = scala-collection-compat_3-2.12.0.jar, jar org = org.scala-lang.modules, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = scala-library-2.13.15.jar, jar org = org.scala-lang, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = scala3-library_3-3.6.3.jar, jar org = org.scala-lang, entry target = META-INF/MANIFEST.MF
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = netty-transport-native-epoll-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/native/libnetty_transport_native_epoll_aarch_64.so
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = netty-transport-native-kqueue-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/maven/io.netty/netty-transport-native-kqueue/pom.properties
+[debug]   Jar name = netty-transport-native-kqueue-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/maven/io.netty/netty-transport-native-kqueue/pom.properties
+[debug]   Jar name = netty-transport-native-kqueue-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/maven/io.netty/netty-transport-native-kqueue/pom.properties
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = netty-codec-http-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/native-image/io.netty/netty-codec-http/native-image.properties
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = netty-codec-socks-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/maven/io.netty/netty-codec-socks/pom.xml
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = netty-buffer-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/native-image/io.netty/netty-buffer/native-image.properties
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = netty-incubator-transport-native-io_uring-0.0.25.Final.jar, jar org = io.netty.incubator, entry target = META-INF/maven/io.netty.incubator/netty-incubator-transport-native-io_uring/pom.xml
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = netty-resolver-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/maven/io.netty/netty-resolver/pom.xml
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = netty-codec-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/native-image/io.netty/netty-codec/generated/handlers/reflect-config.json
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = netty-transport-native-kqueue-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/maven/io.netty/netty-transport-native-kqueue/pom.xml
+[debug]   Jar name = netty-transport-native-kqueue-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/maven/io.netty/netty-transport-native-kqueue/pom.xml
+[debug]   Jar name = netty-transport-native-kqueue-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/maven/io.netty/netty-transport-native-kqueue/pom.xml
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = netty-transport-native-kqueue-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/native/libnetty_transport_native_kqueue_x86_64.jnilib
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = netty-transport-classes-epoll-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/maven/io.netty/netty-transport-classes-epoll/pom.properties
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = zio_3-2.1.14.jar, jar org = dev.zio, entry target = META-INF/native-image/dev.zio/zio/native-image.properties
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = netty-transport-native-epoll-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/maven/io.netty/netty-transport-native-epoll/pom.properties
+[debug]   Jar name = netty-transport-native-epoll-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/maven/io.netty/netty-transport-native-epoll/pom.properties
+[debug]   Jar name = netty-transport-native-epoll-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/maven/io.netty/netty-transport-native-epoll/pom.properties
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = netty-common-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/maven/io.netty/netty-common/pom.properties
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = netty-handler-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/native-image/io.netty/netty-handler/generated/handlers/reflect-config.json
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = netty-common-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/maven/org.jctools/jctools-core/pom.xml
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = netty-transport-native-unix-common-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/maven/io.netty/netty-transport-native-unix-common/pom.properties
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = netty-codec-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/native-image/io.netty/netty-codec/native-image.properties
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = netty-transport-classes-kqueue-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/maven/io.netty/netty-transport-classes-kqueue/pom.xml
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = netty-buffer-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/io.netty.versions.properties
+[debug]   Jar name = netty-codec-http-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/io.netty.versions.properties
+[debug]   Jar name = netty-codec-socks-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/io.netty.versions.properties
+[debug]   Jar name = netty-codec-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/io.netty.versions.properties
+[debug]   Jar name = netty-common-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/io.netty.versions.properties
+[debug]   Jar name = netty-handler-proxy-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/io.netty.versions.properties
+[debug]   Jar name = netty-handler-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/io.netty.versions.properties
+[debug]   Jar name = netty-resolver-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/io.netty.versions.properties
+[debug]   Jar name = netty-transport-classes-epoll-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/io.netty.versions.properties
+[debug]   Jar name = netty-transport-classes-kqueue-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/io.netty.versions.properties
+[debug]   Jar name = netty-transport-native-epoll-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/io.netty.versions.properties
+[debug]   Jar name = netty-transport-native-epoll-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/io.netty.versions.properties
+[debug]   Jar name = netty-transport-native-epoll-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/io.netty.versions.properties
+[debug]   Jar name = netty-transport-native-kqueue-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/io.netty.versions.properties
+[debug]   Jar name = netty-transport-native-kqueue-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/io.netty.versions.properties
+[debug]   Jar name = netty-transport-native-kqueue-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/io.netty.versions.properties
+[debug]   Jar name = netty-transport-native-unix-common-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/io.netty.versions.properties
+[debug]   Jar name = netty-transport-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/io.netty.versions.properties
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = netty-common-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/native-image/io.netty/netty-common/native-image.properties
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = netty-transport-native-epoll-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/maven/io.netty/netty-transport-native-epoll/pom.xml
+[debug]   Jar name = netty-transport-native-epoll-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/maven/io.netty/netty-transport-native-epoll/pom.xml
+[debug]   Jar name = netty-transport-native-epoll-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/maven/io.netty/netty-transport-native-epoll/pom.xml
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = netty-transport-4.1.112.Final.jar, jar org = io.netty, entry target = META-INF/maven/io.netty/netty-transport/pom.xml
+[debug] Report merge results end. Took 20 ms
+[debug] Finding remaining conflicts that were not merged start:
+[debug] Finding remaining conflicts that were not merged end. Took 52 ms
+[debug] Sort/Parallelize merged entries start:
+[debug] Sort/Parallelize merged entries end. Took 24 ms
+[debug] Create jar start:
+[debug] Create jar end. Took 2963 ms
+[debug] Hash newly-built Jar start:
+[debug] Hash newly-built Jar end. Took 125 ms
+[info] Built: /home/kjell/dev/toGitHub/cdtKitchenKlock/backend/target/scala-3.6.3/kitchenklock-assembly.jar
+[info] Jar hash: 6fb4ed177e57bf73413cb6ba0b56ea85073a5f83
+[debug] Close library jar references start:
+[debug] Close library jar references end. Took 1 ms

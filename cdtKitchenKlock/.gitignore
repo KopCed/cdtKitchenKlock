@@ -1,0 +1,23 @@
+# Build outputs
+backend/target/
+backend/src/main/resources/public/
+frontend/node_modules/
+frontend/dist/
+
+# Temporary files
+target/
+*.class
+*.jar
+!backend/target/scala-3.6.3/kitchenklock-assembly.jar
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.idea/
+*.iml
+.vscode/
+
+# Claude memory
+.claude/

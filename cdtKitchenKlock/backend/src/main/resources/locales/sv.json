@@ -1,0 +1,198 @@
+{
+  "app": {
+    "loading": "Laddar...",
+    "settings": "Inställningar",
+    "settingsLink": "⚙ inställningar"
+  },
+  "config": {
+    "title": "KitchenKlock – Konfiguration",
+    "backLink": "← Tillbaka till klockan",
+    "closeButton": "Stäng",
+    "tabs": {
+      "clock": "Klocka",
+      "date": "Datum",
+      "appearance": "Utseende",
+      "weather": "Väder"
+    },
+    "sections": {
+      "clockMode": {
+        "heading": "Välj klockor",
+        "rotationHeading": "Rotation",
+        "switchEvery": "Byt klocka var X minuter",
+        "switchTriggerLabel": "Byt klocka",
+        "triggerTimed": "Var X minuter",
+        "triggerOnWeatherReturn": "Vid varje återgång från väder",
+        "globeColorLabel": "Kulans färg",
+        "globeColorPurple": "Lila",
+        "globeColorRed": "Röd",
+        "globeColorGreen": "Grön",
+        "globeColorBlue": "Blå",
+        "ledSegmentLabel": "Inaktiva segment – styrka: {{value}}%",
+        "ledSegmentInvisible": "Osynliga (0%)",
+        "ledSegmentWeak": "Svaga (15%)",
+        "ledSegmentStrong": "Starka (30%)"
+      },
+      "colors": {
+        "heading": "Färger",
+        "backgroundStyleLabel": "Bakgrundstyp",
+        "backgroundSolid": "Enfärgad",
+        "backgroundLavaLamp": "Lava-lampa (levande)",
+        "backgroundNightSky": "Natthimmel (stjärnor)",
+        "animatedBgInfo": "Klockfärg och bakgrundsfärg styrs automatiskt för bästa kontrast.",
+        "starSizeLabel": "Stjärnstorlek: {{value}}×",
+        "starSizeSmall": "Liten",
+        "starSizeLarge": "Stor",
+        "lavaLamp": "Levande bakgrund (lava-lampa)",
+        "lavaLampInfo": "Klockfärg och bakgrundsfärg styrs automatiskt för bästa kontrast.",
+        "background": "Bakgrundsfärg",
+        "clock": "Klockfärg",
+        "date": "Datumfärg",
+        "randomClock": "Slumpa klockfärg",
+        "randomDate": "Slumpa datumfärg"
+      },
+      "display": {
+        "heading": "Visning",
+        "showDate": "Visa datum",
+        "showTemperature": "Visa temperatur i hörn",
+        "tempPositionLabel": "Temperaturposition",
+        "posTopLeft": "Vänster övre hörn",
+        "posTopRight": "Höger övre hörn",
+        "posBotLeft": "Vänster nedre hörn",
+        "posBotRight": "Höger nedre hörn"
+      },
+      "dimming": {
+        "heading": "Dimning",
+        "enable": "Dimma skärmen automatiskt",
+        "startLabel": "Börja dimma",
+        "endLabel": "Återgå till full styrka",
+        "levelLabel": "Ljusstyrka under dimning: {{value}}%",
+        "levelDark": "Mörkt (5%)",
+        "levelHalf": "Halvt (50%)",
+        "levelFull": "Nästan full (95%)"
+      },
+      "temperatureUnit": {
+        "heading": "Temperatureenhet",
+        "celsius": "Celsius (°C)",
+        "fahrenheit": "Fahrenheit (°F)"
+      },
+      "weatherScreen": {
+        "heading": "Väderskärm",
+        "showWeather": "Visa väder (växla klocka ↔ väder)",
+        "clockSeconds": "Klocka visas i (sekunder)",
+        "weatherSeconds": "Väder visas i (sekunder)",
+        "switchClockLabel": "Byt klocka",
+        "switchClockTimed": "Var X minuter",
+        "switchClockOnReturn": "Vid varje återgång från väder"
+      },
+      "weatherTime": {
+        "heading": "Tid på väderskärmen",
+        "showTime": "Visa aktuell tid i hörnet när väder visas",
+        "positionLabel": "Tidposition"
+      },
+      "weatherService": {
+        "heading": "Vädertjänst",
+        "serviceLabel": "Välj vädertjänst",
+        "smhi": "SMHI (gratis, ingen API-nyckel)",
+        "yr": "YR.no (gratis, ingen API-nyckel)",
+        "accuweather": "AccuWeather (kräver API-nyckel)",
+        "apiKeyLabel": "AccuWeather API-nyckel",
+        "apiKeyPlaceholder": "Klistra in din API-nyckel här",
+        "apiKeyInfo": "Hämta gratis nyckel (50 anrop/dag) på",
+        "latLabel": "Latitud",
+        "lonLabel": "Longitud",
+        "cityLabel": "Ortsnamn (visningsnamn)",
+        "refreshLabel": "Hämta nytt väder var X minut"
+      },
+      "language": {
+        "heading": "Språk",
+        "label": "Välj språk"
+      },
+      "datetime": {
+        "heading": "Datum",
+        "timeFormatLabel": "Tidsformat",
+        "24h": "24 timmar",
+        "12h": "12 timmar (AM/PM)",
+        "dateFormatLabel": "Datumformat",
+        "preview": "Förhandsgranskning"
+      }
+    },
+    "clocks": {
+      "digitalDefault": "Standard",
+      "digitalLed": "LED",
+      "digitalScifi": "Sci-Fi",
+      "digitalFlip": "Flipklocka",
+      "digitalGlobe": "Glaskula",
+      "analogClassic": "Klassisk",
+      "analogPilot": "Pilot",
+      "analogVintage": "Vintage",
+      "analogCosmic": "Kosmisk",
+      "openSettings": "Inställningar",
+      "settingsFallback": "Inställningar",
+      "multipleInfo": "{{count}} klockor valda – roterar automatiskt"
+    },
+    "buttons": {
+      "saving": "Sparar...",
+      "save": "Spara konfiguration",
+      "refreshing": "Hämtar...",
+      "refreshed": "Uppdaterad!",
+      "refresh": "Uppdatera konfiguration",
+      "saved": "Sparad!",
+      "saveError": "Kunde inte spara konfigurationen"
+    }
+  },
+  "locale": {
+    "months": {
+      "0": "Januari", "1": "Februari", "2": "Mars", "3": "April",
+      "4": "Maj", "5": "Juni", "6": "Juli", "7": "Augusti",
+      "8": "September", "9": "Oktober", "10": "November", "11": "December"
+    },
+    "monthsShort": {
+      "0": "Jan", "1": "Feb", "2": "Mar", "3": "Apr",
+      "4": "Maj", "5": "Jun", "6": "Jul", "7": "Aug",
+      "8": "Sep", "9": "Okt", "10": "Nov", "11": "Dec"
+    },
+    "weekdays": {
+      "0": "Söndag", "1": "Måndag", "2": "Tisdag", "3": "Onsdag",
+      "4": "Torsdag", "5": "Fredag", "6": "Lördag"
+    },
+    "weekdaysShort": {
+      "0": "Sön", "1": "Mån", "2": "Tis", "3": "Ons",
+      "4": "Tor", "5": "Fre", "6": "Lör"
+    }
+  },
+  "weather": {
+    "loading": "Hämtar väder...",
+    "unavailable": "Väderdata ej tillgänglig: {{error}}",
+    "wind": "Vind: {{speed}} m/s",
+    "codes": {
+      "1":  "Klart",
+      "2":  "Nästan klart",
+      "3":  "Halvklart",
+      "4":  "Halvmulet",
+      "5":  "Mulet",
+      "6":  "Mulet",
+      "7":  "Dimma",
+      "8":  "Lätt regnskur",
+      "9":  "Regnskur",
+      "10": "Kraftig regnskur",
+      "11": "Åskskur",
+      "12": "Lätt snöblandad regnskur",
+      "13": "Snöblandad regnskur",
+      "14": "Kraftig snöblandad regnskur",
+      "15": "Lätt snöskur",
+      "16": "Snöskur",
+      "17": "Kraftig snöskur",
+      "18": "Lätt regn",
+      "19": "Regn",
+      "20": "Kraftigt regn",
+      "21": "Åska",
+      "22": "Lätt snöblandat regn",
+      "23": "Snöblandat regn",
+      "24": "Kraftigt snöblandat regn",
+      "25": "Lätt snöfall",
+      "26": "Snöfall",
+      "27": "Kraftigt snöfall",
+      "0":  "Okänt"
+    }
+  }
+}

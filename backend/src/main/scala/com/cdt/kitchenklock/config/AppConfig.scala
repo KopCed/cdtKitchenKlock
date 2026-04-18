@@ -1,0 +1,81 @@
+package com.cdt.kitchenklock.config
+
+import zio.json.*
+
+case class AppConfig(
+  enabledClockStyles: List[String],
+  backgroundColor: String,
+  clockColor: String,
+  dateColor: String,
+  randomSwitchMinutes: Int,
+  clockSwitchTrigger: String,
+  randomClockColor: Boolean,
+  randomDateColor: Boolean,
+  showDate: Boolean,
+  showWeather: Boolean,
+  showTemperature: Boolean,
+  temperaturePosition: String,
+  showWeatherTime: Boolean,
+  weatherTimePosition: String,
+  clockDisplaySeconds: Int,
+  weatherDisplaySeconds: Int,
+  weatherService: String,
+  weatherApiKey: String,
+  weatherRefreshMinutes: Int,
+  weatherLat: Double,
+  weatherLon: Double,
+  weatherCity: String,
+  globeColor: String,
+  ledDimOpacity: Int,
+  backgroundStyle: String,
+  starSize: Double,
+  dimEnabled: Boolean,
+  dimStart: String,
+  dimEnd: String,
+  dimLevel: Int,
+  language: String,
+  timeFormat: String,
+  dateFormat: String,
+  temperatureUnit: String
+)
+
+object AppConfig:
+  given JsonDecoder[AppConfig] = DeriveJsonDecoder.gen[AppConfig]
+  given JsonEncoder[AppConfig] = DeriveJsonEncoder.gen[AppConfig]
+
+  val default: AppConfig = AppConfig(
+    enabledClockStyles    = List("digital-default"),
+    backgroundColor       = "#000000",
+    clockColor            = "#FFFFFF",
+    dateColor             = "#FFFFFF",
+    randomSwitchMinutes   = 1,
+    clockSwitchTrigger    = "timed",
+    randomClockColor      = false,
+    randomDateColor       = false,
+    showDate              = true,
+    showWeather           = false,
+    showTemperature       = true,
+    temperaturePosition   = "top-right",
+    showWeatherTime       = true,
+    weatherTimePosition   = "top-right",
+    clockDisplaySeconds   = 60,
+    weatherDisplaySeconds = 30,
+    weatherService        = "smhi",
+    weatherApiKey         = "",
+    weatherRefreshMinutes = 30,
+    weatherLat            = 59.3293,
+    weatherLon            = 18.0686,
+    weatherCity           = "Stockholm",
+    globeColor            = "purple",
+    ledDimOpacity         = 5,
+    backgroundStyle       = "solid",
+    starSize              = 1.5,
+    dimEnabled            = false,
+    dimStart              = "22:00",
+    dimEnd                = "07:00",
+    dimLevel              = 40,
+    language              = "sv",
+    timeFormat            = "24h",
+    dateFormat            = "YYYY-MM-DD",
+    temperatureUnit       = "celsius"
+  )
